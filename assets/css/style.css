@@ -220,10 +220,10 @@ a:active {
     transform: rotate(-405deg);
 }
 
-@media (max-width: 1800px) {
-  .menu-button-container {
-      display: flex;}
-      
+.menu-button-container {
+    display:flex}
+  
+
     .menu {
         position: absolute;
         top: 0;
