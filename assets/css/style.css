@@ -60,8 +60,9 @@ header {
 
 .hero-text-box {
 text-align: center;
-margin-left:auto;
-margin-top:auto;
+margin-left: auto;
+margin-top: auto;
+font-family: "fjalla one";
 }
 
 .logo {
@@ -122,28 +123,29 @@ a:active {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #fff;
+    background-color: #414141;
     border: 1px solid #fff;
     color: #fff;
 }
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
 }
+
 .btn:hover,
 .btn:active {
-    background-color: #ea7dd9;;
+    background-color: #fff;
 }
 .btn-full:hover,
 .bth-full:active {
-    border: 1px solid #ea7dd9;
-    color: #fff;
+    border: 1px solid #fff;
+    color: #ea7dd9;
 }
 .btn-ghost: hover,
 .btn-ghost: active {
-    border: 1px solid #ea7dd9;
-    color: #ea7dd9;
+    border: 1px solid #fff;
+    color: #fff;
 }    
 /*------------------------------------- NAV -------------------------------------------*/
 .top-nav {
