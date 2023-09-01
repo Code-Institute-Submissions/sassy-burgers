@@ -4,27 +4,117 @@
 
 /*------------------------------- BASIC SETUP ----------------------------------------*/
 
-* {
+*{
     margin: 0;
-    font-family: "fjalla one"
+    font-family: "fjalla one";
 }
 
+html {margin: 1px;}
+
 body {
-    margin: 1x;
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
-}
-
-
-
-html {
     background-color: #1f1a1a;
     color: #ea7dd9;
 }
 
-/*------------------------------------- NAV -------------------------------------------*/
 
+li {
+    color: #ea7dd9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.padding {
+    text-align: center;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 100%;
+    width: auto;
+    margin-right: 10px;}
+
+/*------------------------------------- LINKS -----------------------------------------*/
+a:link,
+a:visited {
+    color: #ea7dd9;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ea7dd9;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #FFF;
+    border-bottom: 1px solid transparent;
+}
+
+/*------------------------------------- BUTTONS --------------------------------------*/
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 140%;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2, color 0.2;
+}
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #ea7dd9;
+    border: 1px solid #ea7dd9;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #fff;
+}
+
+.btn-full:hover,
+.bth-full:active {
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
+}
+
+.btn-ghost: hover,
+.btn-ghost: active {
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
+}    
+
+
+
+
+/*------------------------------------- NAV -------------------------------------------*/
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -100,7 +190,6 @@ html {
 }
 
 @media (max-width: 700px) {
-
     .menu-button-container {
         display: flex;
     }
@@ -144,10 +233,12 @@ html {
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #ea7dd9;
     }
-
+}
 /*------------------------------------- BURGERS -------------------------------------------*/
 
-.burgers-showcase li {
+.section-burger{}    
+    
+.burger-showcase li {
      display: block;
      float: left;
      width: 25%;
@@ -155,7 +246,7 @@ html {
 
 .burger-photo {
     width: 100%;
-    margin: 1p;
+    margin: 1;
     overflow: hidden;
     background: #000;
 }
@@ -186,71 +277,30 @@ html {
     height: auto;
     visibility: hidden;
 }
+/*-------------------------------COLUMNS-------------------------------------*/
 
-/*------------------------------------- LINKS -----------------------------------------*/
-a:link,
-a:visited {
-    color: #ea7dd9;
-    text-decoration: none;
-    padding-bottom: 1px;
-    border-bottom: 1px solid #ea7dd9;
-    transition: border-bottom 0.2s, color 0.2s;
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-a:hover,
-a:active {
-    color: #FFF;
-    border-bottom: 1px solid transparent;
-}
-
-/*------------------------------------- NAV -------------------------------------------*/
-
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 10px 35px;
-    font-size: 140%;
-    text-decoration: none;
-    border-radius: 200px;
-    transition: background-color 0.2s, border 0.2, color 0.2;
-}
-
-.btn-full:link,
-.btn-full:visited {
-    background-color: #ea7dd9;
-    border: 1px solid #ea7dd9;
-    color: #fff;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-        border: 1px solid #ea7dd9;
-        color: #ea7dd9;
+.column {
+    float: left;;
 }
 
 
-.btn:hover,
-.btn:active {
-        background-color: #fff;
-}
 
 
-.btn-full:hover,
-.bth-full:active {
-    border: 1px solid #ea7dd9;
-    color: #ea7dd9;
-}
 
-.btn-ghost: hover,
-.btn-ghost: active {
-    border: 1px solid #ea7dd9;
-    color: #ea7dd9;
-}
+
 
 /*------------------------------------- HEADER -------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.62)), url("../images/bbackground.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.62)), url('../images/bbackground.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -276,9 +326,26 @@ h1 {
 
 
 h2 {
+    
     font-size: 400%;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
     margin: 5%;
 }
+h3 {
+    font-size: 250%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-size: 130%
+}
+
+
+
+h6 {
+    font-size: 100%
+}
+
