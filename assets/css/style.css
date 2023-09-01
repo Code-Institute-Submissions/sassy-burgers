@@ -3,7 +3,6 @@
 
 /*------------------------------- BASIC SETUP ----------------------------------------*/
 
-
 body {
     max-width: 1800px;
     margin-left: auto;
@@ -16,8 +15,7 @@ body {
 
 
 li {
-    color: #fff;
-    float:lefT;
+    color:#fff;
 }
 
 ul {
