@@ -223,4 +223,26 @@ header {
 .logo {
     height: 120px;
     width: auto;
-    float: left;
+    float: left;}
+
+/*----------------------- HEADINGS ----------------------*/
+    
+    
+h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+
+h2 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 5%;
+}
+    
+    
+    
+    
+    
