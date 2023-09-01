@@ -3,9 +3,6 @@
 
 /*------------------------------- BASIC SETUP ----------------------------------------*/
 
-*{
-    font-family: 'Ysabeau SC', sans-serif;
-}
 
 body {
     max-width: 1800px;
@@ -13,6 +10,7 @@ body {
     margin-right: auto;
     background-color: #414141;
     color: #fff;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 
@@ -33,6 +31,7 @@ p {
 font-family: 'Ysabeau SC', sans-serif;
 font-size: 120%;
 font-weight: 200;
+text-align: center;
 }
 
 
@@ -75,6 +74,7 @@ header {
 h1 {
     font-size: 400%;
     text-transform: uppercase;
+    font-family: fjalla one;
 }
 
 
@@ -83,6 +83,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
+    font-family: fjalla one;
 }
 
 h3 {
