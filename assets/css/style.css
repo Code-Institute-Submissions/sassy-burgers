@@ -292,7 +292,7 @@ a:active {
 
 
 /*--------------------------------------- ABOUT US-------------------------------------------*/
-container {max-width: 700px;
+.container {max-width: 808px;
            margin-left:auto;
            margin-right:auto;
            text-align:center;}
