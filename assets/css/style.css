@@ -15,13 +15,13 @@ body {
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #1f1a1a;
-    color: #ea7dd9;
+    background-color: #414141;
+    color: #f7f7f7;
 }
 
 
 li {
-    color: #ea7dd9;
+    color: #fff;
 }
 
 ul {
@@ -57,16 +57,16 @@ ul li {
 /*------------------------------------- LINKS -----------------------------------------*/
 a:link,
 a:visited {
-    color: #ea7dd9;
+    color: #fff;
     text-decoration: none;
     padding-bottom: 1px;
-    border-bottom: 1px solid #ea7dd9;
+    border-bottom: 1px solid #fff;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
 a:active {
-    color: #FFF;
+    color: #fff;
     border-bottom: 1px solid transparent;
 }
 
@@ -85,26 +85,26 @@ a:active {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #ea7dd9;
-    border: 1px solid #ea7dd9;
+    background-color: #fff;
+    border: 1px solid #fff;
     color: #fff;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #ea7dd9;
-    color: #ea7dd9;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #fff;
+    background-color: #ea7dd9;;
 }
 
 .btn-full:hover,
 .bth-full:active {
     border: 1px solid #ea7dd9;
-    color: #ea7dd9;
+    color: #fff;
 }
 
 .btn-ghost: hover,
