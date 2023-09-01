@@ -60,9 +60,9 @@ header {
 }
 
 .hero-text-box {
-max-width: 500px;
-margin-left:20%;
-margin-top: 20%;
+text-align: center;
+margin-left:auto;
+margin-top:auto;
 }
 
 .logo {
@@ -91,6 +91,7 @@ h3 {
     text-transform: uppercase;
     text-align: center;
 }
+
 
 /*------------------------------------- LINKS -----------------------------------------*/
 a:link,
@@ -308,16 +309,12 @@ a:active {
 
 /*------------------------------ BURGER MENU -----------------------------*/
 
-.burger_menu {text-align: center;
+.burger_menu {
+text-align: center;
     
 }
 
-/*------------------------------- IFRAME-------------------------------------*/
 
-iframe     {max-width: 808px;
-           margin-left:auto;
-           margin-right:auto;
-           justify-content:center;}
 
 /*-------------------------------COLUMNS-------------------------------------*/
 
