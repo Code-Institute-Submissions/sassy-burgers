@@ -52,6 +52,55 @@ font-weight: 200;
     width: auto;
     margin-right: 10px;}
 
+/*----------------------- HEADER ----------------------*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.62)), url("../images/bbackground.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    text-transform: capitalize;
+    width: auto;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+}
+
+h1 {
+    font-size: 400%;
+    text-transform: uppercase
+}
+
+
+h2 {
+    font-size: 400%;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 5%;
+}
+
+h3 {
+    font-size: 250%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h4 {
+    font-size: 130%
+}
+
+
+
+h6 {
+    font-size: 100%
+}
 
 
 /*------------------------------------- LINKS -----------------------------------------*/
@@ -112,9 +161,6 @@ a:active {
     border: 1px solid #ea7dd9;
     color: #ea7dd9;
 }    
-
-
-
 
 /*------------------------------------- NAV -------------------------------------------*/
 .top-nav {
@@ -283,6 +329,9 @@ a:active {
     
 }
 
+/*-------------------------------CONTACT FORM-------------------------------------*/
+
+.form
 
 
 /*-------------------------------COLUMNS-------------------------------------*/
