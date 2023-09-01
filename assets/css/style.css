@@ -294,11 +294,6 @@ a:active {
 
 
 /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .column {
     float: left;;
@@ -313,64 +308,25 @@ a:active {
 
 
 
-/*----------------------------------- SECTION - FOOTER-----------------------------------------*/
-
-.section-footer {
-    
+/*----------------------------------- SECTION ----------------------------------------*/
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
-/*----------------------------------- SECTION - HEADER ----------------------------------------*/
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.62)), url('../images/bbackground.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+/*----------------------------------- GROUPING----------------------------------------*/
+.row {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-.hero-text-box {
-    text-transform: capitalize;
-    margin-top;
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
 }
 
-.logo {
-    height: 120px;
-    width: auto;
-    float: left;
 }
-
-/*------------------------------------- HEADINGS -------------------------------------------*/
-
-h1 {
-    font-size: 400%;
-    text-transform: uppercase;
-}
-
-
-h2 {
-    
-    font-size: 400%;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 2px;
-    margin: 5%;
-}
-h3 {
-    font-size: 250%;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h4 {
-    font-size: 150%;
-    text-align: center;
-    margin-bottom: 20px;}
-
-}
-
-h5 {text-align: center;}
-
-h6 {
-    font-size: 100%
-}
-
