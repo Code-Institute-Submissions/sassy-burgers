@@ -5,7 +5,6 @@
 /*------------------------------- BASIC SETUP ----------------------------------------*/
 
 *{
-    margin: 0;
     font-family: "fjalla one";
 }
 
@@ -35,6 +34,10 @@ ul li {
 .padding {
     text-align: center;
 }
+
+
+hr {width: "50%"}
+
 
 .btn-app img {
     height: 50px;
@@ -276,6 +279,15 @@ a:active {
     height: auto;
     visibility: hidden;
 }
+
+/*------------------------------ BURGER MENU -----------------------------*/
+
+.burger_menu {text-align: center;
+    
+}
+
+
+
 /*-------------------------------COLUMNS-------------------------------------*/
 
 
@@ -342,10 +354,13 @@ h3 {
 }
 
 h4 {
-    font-size: 130%
+    font-size: 100%;
+    text-align: center;
+    margin-bottom: 20px;}
+
 }
 
-
+h5 {text-align: center;}
 
 h6 {
     font-size: 100%
