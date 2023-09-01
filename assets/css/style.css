@@ -20,14 +20,11 @@ body {
 
 html {
     background-color: #1f1a1a;
-    color: #ea7dd9;}
+    color: #ea7dd9;
+}
 
+/*------------------------------------- NAV -------------------------------------------*/
 
-
-
-
-
-/*----------------- NAV ----------------------*/
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -103,6 +100,7 @@ html {
 }
 
 @media (max-width: 700px) {
+
     .menu-button-container {
         display: flex;
     }
@@ -146,8 +144,50 @@ html {
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #ea7dd9;
     }
+
+/*------------------------------------- BURGERS -------------------------------------------*/
+
+.burgers-showcase li {
+     display: block;
+     float: left;
+     width: 25%;
 }
-/*------------- LINKS ---------------------*/
+
+.burger-photo {
+    width: 100%;
+    margin: 1p;
+    overflow: hidden;
+    background: #000;
+}
+
+.burger-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.burger-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
+.clearfix {
+    zoom: 1%;
+    overflow: auto;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: auto;
+    visibility: hidden;
+}
+
+/*------------------------------------- LINKS -----------------------------------------*/
 a:link,
 a:visited {
     color: #ea7dd9;
@@ -163,7 +203,8 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
-/*------------------- BUTTONS ---------------------*/
+/*------------------------------------- NAV -------------------------------------------*/
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -183,14 +224,14 @@ a:active {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #ea7dd9;
-    color: #ea7dd9;
+        border: 1px solid #ea7dd9;
+        color: #ea7dd9;
 }
 
 
 .btn:hover,
 .btn:active {
-    background-color: #fff;
+        background-color: #fff;
 }
 
 
@@ -206,7 +247,7 @@ a:active {
     color: #ea7dd9;
 }
 
-/*----------------------- HEADER ----------------------*/
+/*------------------------------------- HEADER -------------------------------------------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.62)), url("../images/bbackground.png");
@@ -223,11 +264,11 @@ header {
 .logo {
     height: 120px;
     width: auto;
-    float: left;}
+    float: left;
+}
 
-/*----------------------- HEADINGS ----------------------*/
-    
-    
+/*------------------------------------- HEADINGS -------------------------------------------*/
+
 h1 {
     font-size: 400%;
     text-transform: uppercase;
@@ -241,8 +282,3 @@ h2 {
     letter-spacing: 2px;
     margin: 5%;
 }
-    
-    
-    
-    
-    
