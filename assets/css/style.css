@@ -1,3 +1,7 @@
+/*------------------------------- FONT FAMILY----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 /*------------------------------- BASIC SETUP ----------------------------------------*/
 
 * {
@@ -16,10 +20,7 @@ body {
 
 html {
     background-color: #1f1a1a;
-    color: #ea7dd9;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    background-color: ;
-}
+    color: #ea7dd9;}
 
 
 
