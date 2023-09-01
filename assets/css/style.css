@@ -23,17 +23,16 @@ li {
 }
 
 ul {
+    float:left;
     list-style-type: none;
 }
 
-ul li {
-    padding: 5px 0;
-}
+
+
 
 .padding {
     text-align: center;
 }
-
 
 hr {
 width: 50%;
@@ -318,7 +317,14 @@ a:active {
 
 
 
-/*------------------------------------- HEADER -------------------------------------------*/
+/*----------------------------------- SECTION - FOOTER-----------------------------------------*/
+
+float-left {
+    
+}
+}
+
+/*----------------------------------- SECTION - HEADER ----------------------------------------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.62)), url('../images/bbackground.png');
