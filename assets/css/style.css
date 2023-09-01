@@ -26,6 +26,7 @@ hr {
 width: 50%;
 margin-bottom: 5%;}
 
+
 p {
 font-family: 'Ysabeau SC', sans-serif;
 font-size: 120%;
@@ -157,7 +158,7 @@ a:active {
 .menu {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    list-style-type:none;
     margin: 0;
     padding: 0;
 }
@@ -219,7 +220,10 @@ a:active {
     transform: rotate(-405deg);
 }
 
-
+@media (max-width: 1800px) {
+  .menu-button-container {
+      display: flex;}
+      
     .menu {
         position: absolute;
         top: 0;
@@ -260,7 +264,7 @@ a:active {
     .menu > li:not(:last-child) {
         border-bottom: 1px solid #ea7dd9;
     }
-}
+
 /*------------------------------------- SECTION BURGERS ----------------------------------------*/
 
 .section-burger{}    
