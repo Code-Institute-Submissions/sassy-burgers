@@ -147,3 +147,61 @@ html {
         border-bottom: 1px solid #ea7dd9;
     }
 }
+/*------------- LINKS ---------------------*/
+a:link,
+a:visited {
+    color: #ea7dd9;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #ea7dd9;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #FFF;
+    border-bottom: 1px solid transparent;
+}
+
+/*------------------- BUTTONS ---------------------*/
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 140%;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2, color 0.2;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #ea7dd9;
+    border: 1px solid #ea7dd9;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
+}
+
+
+.btn:hover,
+.btn:active {
+    background-color: #fff;
+}
+
+
+.btn-full:hover,
+.bth-full:active {
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
+}
+
+.btn-ghost: hover,
+.btn-ghost: active {
+    border: 1px solid #ea7dd9;
+    color: #ea7dd9;
+}
