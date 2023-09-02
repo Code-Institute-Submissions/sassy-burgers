@@ -49,7 +49,7 @@ header {
 h1 {
     font-size: 350%;
     text-transform: uppercase;
-    font-family: fjalla one;
+    font-family: "fjalla one";
     text-align:center;
    
 }
@@ -60,7 +60,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
-    font-family: fjalla one;
+    font-family: "fjalla one";
 }
 
 h3 {
@@ -97,7 +97,6 @@ a:active {
     font-size: 140%;
     text-decoration: none;
     border-radius: 200px;
-    transition: background-color 0.2s, border 0.2, color 0.2;
 }
 
 .btn-full:link,
@@ -124,10 +123,10 @@ a:active {
     color: #ea7dd9;
 }
 
-.btn-ghost: hover,
-.btn-ghost: active {
+.btn-ghost:hover,
+.btn-ghost:active {
     border: 1px solid #fff;
-    color: #fff;
+    color: #ea7dd9;
 }
 
 .btn-app img {
@@ -195,7 +194,6 @@ a:active {
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
-    color: #ea7dd9;
     text-align:start;
 }
 
@@ -280,7 +278,7 @@ a:active {
 
 .burger-photo {
     width: 100%;
-    margin: 1;
+    margin: 1px;
     overflow: hidden;
     background: #000;
 }
