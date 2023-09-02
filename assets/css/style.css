@@ -5,14 +5,14 @@
 
 body {
     max-width: 1200px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #414141;
     color: #fff;
     font-family: 'Ysabeau SC', sans-serif;
 }
 
-
-li, ul {
+ul, li {
     color: #fff;
     list-style-type: none;
 }
@@ -276,7 +276,7 @@ a:hover, a:active {
 .container {
     max-width: 800px;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
 }
 
 /*-- SECTION --*/
@@ -288,9 +288,15 @@ a:hover, a:active {
 
 /*-- FOOTER --*/
 .center {
-    margin: 0 auto
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/*-- menu.html --*/
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
