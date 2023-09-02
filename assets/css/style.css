@@ -1,7 +1,7 @@
 /*-- IMPORT  --*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ysabeau+SC:wght@100;200&display=swap');
 
-/*-- BASIC SETUP -----------------------------------------------------------------------------*/
+/*-- BASIC SETUP --*/
 
 body {
     max-width: 1200px;
@@ -49,56 +49,48 @@ h2 {font-size:2rem;}
 
 h3 {font-size:1.5rem;}
 
-/*------------------------------------- LINKS -----------------------------------------*/
-a:link,
-a:visited {
+/*-- LINKS --*/
+a:link, a:visited {
     color: #ea7dd9;
     text-decoration: none;
     padding-bottom: 1px;
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
     color: #FFF;
     border-bottom: 1px solid transparent;
 }
 
-/*------------------------------------- BUTTONS --------------------------------------*/
-.btn:link,
-.btn:visited {
+/*-- BUTTONS --*/
+.btn:link, .btn:visited {
     display: inline-block;
     padding: 10px 35px;
-    font-size: 140%;
+    font-size: 1.4rem;
     text-decoration: none;
     border-radius: 200px;
 }
 
-.btn-full:link,
-.btn-full:visited {
+.btn-full:link, .btn-full:visited {
     background-color: #414141;
     border: 1px solid #fff;
     color: #fff;
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:link, .btn-ghost:visited {
     border: 1px solid #ea7dd9;
     color: #ea7dd9;
 }
 
-.btn:hover,
-.btn:active {
+.btn:hover, .btn:active {
     background-color: #fff;
 }
 
-.btn-full:hover,
-.bth-full:active {
+.btn-full:hover, .bth-full:active {
     border: 1px solid #fff;
     color: #ea7dd9;
 }
 
-.btn-ghost:hover,
-.btn-ghost:active {
+.btn-ghost:hover, .btn-ghost:active {
     border: 1px solid #fff;
     color: #ea7dd9;
 }
@@ -109,8 +101,7 @@ a:active {
     margin: 10px;
 }
 
-.btn-app:link,
-.btn-app:visited {
+.btn-app:link, .btn-app:visited {
     border: 0;
 }
 
@@ -120,7 +111,7 @@ a:active {
     margin-right: 10px;
 }
 
-/*-- NAV -------------------------------------------------------------------------------------*/
+/*-- NAV --*/
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -128,15 +119,15 @@ a:active {
     justify-content: space-between;
     background-color: #414141;
     color: #fff;
-    font-family: "fjalla one";
+    font-family: "fjalla one", sans-serif;
 }
 
 .menu {
-    display:flex;
+    display: flex;
     flex-direction: row;
     list-style-type: none;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 50px;
 }
 
 .menu > li {
@@ -145,7 +136,7 @@ a:active {
 }
 
 .menu-button-container {
-    display:block;
+    display: block;
     height: 100%;
     width: 20%;
     cursor: pointer;
@@ -158,9 +149,7 @@ a:active {
     display: none;
 }
 
-.menu-button,
-.menu-button::before,
-.menu-button::after {
+.menu-button, .menu-button::before, .menu-button::after {
     display: block;
     background-color: #ea7dd9;
     position: absolute;
@@ -239,7 +228,7 @@ a:active {
     border-bottom: 1px solid #ea7dd9;
 }
 
-/*-- BURGER SHOWCASE -------------------------------------------------------------------------*/
+/*-- BURGER SHOWCASE --*/
 .section-burger {
     margin-top: 10%;
 }
@@ -284,62 +273,22 @@ a:active {
     visibility: hidden;
 }
 
-/*-- MENU.HTML -------------------------------------------------------------------------------*/
-.burger_menu {
-    text-align: center;
-}
-
-/*-- COLUMNS ---------------------------------------------------------------------------------*/
-.column {
-    float: left;
-}
-
-/*-- CONTAINER -------------------------------------------------------------------------------*/
+/*-- CONTAINER --*/
 .container {
     max-width: 800px;
     margin-left: auto;
-    margin-right: auto;;
 }
 
-/*----------------------------------- SECTION ----------------------------------------*/
+/*-- SECTION --*/
 .section {
     clear: both;
     padding: 0px;
     margin: 0px;
 }
 
-/*----------------------------------- GROUPING----------------------------------------*/
-.row {
-    zoom: 1;
-}
-
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-}
-
-.row:after {
-    clear: both;
-}
-
-/*----------------------------------- FOOTER-------------------------------------*/
+/*-- FOOTER --*/
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-/*----------------------------------- FONTS-------------------------------------*/
-
-.ysabeu {
-    font-family: 'Ysabeau SC', sans-serif;
-    font-size: 120%;
-    font-weight: 200;
-}
-
-#restaurant {
-    width:100%;
+    margin: 0 auto
 }
 
 
