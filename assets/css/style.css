@@ -28,7 +28,7 @@ p {
     text-align: center;
 }
 
-/*-- HEADER ----------------------------------------------------------------------------------*/
+/*-- HEADER ---*/
 header {
     background-size: cover;
     background-position: center;
@@ -36,9 +36,7 @@ header {
 
 .hero-text-box {
     text-align: center;
-    margin-left: auto;
-    margin-top: auto;
-    font-family: "fjalla one";
+
 }
 
 
