@@ -1,12 +1,11 @@
-/*-- IMPORT  -----------------------------------------------------------------------------*/
+/*-- IMPORT  --*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ysabeau+SC:wght@100;200&display=swap');
 
 /*-- BASIC SETUP -----------------------------------------------------------------------------*/
+
 body {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
+    margin: 0 auto;
     background-color: #414141;
     color: #fff;
     font-family: 'Ysabeau SC', sans-serif;
