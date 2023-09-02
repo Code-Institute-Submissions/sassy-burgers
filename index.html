@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sassy Burgers: Restaurant/Fast Food in London, England">
+    <meta name="description" content="sassy burgers restaurant/fast food in london, england"> 
     <meta name="keywords" content="sassy, hamburger, burger, fast food, restaurant, London">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>     
     <title>Sassy Burgers</title>
-</head>
+   </head>
+
+<!-- TOP NAV -->
 <body>
-    <!-- TOP NAV -->
     <header>
-        <div class="top-nav">
-            <img src="assets/images/logo.webp" alt="Sassy Burgers Logo">
-            <input id="menu-toggle" type="checkbox">
-            <label class="menu-button-container" for="menu-toggle">
-                <span class="menu-button"></span>
+        <div class='top-nav'>
+            <img src='assets/images/logo.webp'alt="sassy burgers logo">
+            <input id='menu-toggle' type='checkbox'>
+            <label class='menu-button-container' for='menu-toggle'>
+            <span class='menu-button'></span>
             </label>
             <ul class="menu">
                 <li><a href="menu.html">MENU</a></li>
@@ -25,72 +26,113 @@
             </ul>
         </div>
     </header>
-
-    <!-- HERO TEXT BOX -->
+   
+<!-- HERO TEXT BOX -->
     <h1>Sassy Burgers</h1>
-    <div class="hero-text-box">
-        <a class="btn btn-full" href="menu.html">MENU</a>
-        <a class="btn btn-ghost" href="index.html">ABOUT US!</a>
+        <div class="hero-text-box">
+            <a class="btn btn-full" href="menu.html">MENU</a>
+            <a class="btn btn-ghost" href="index.html">ABOUT US!</a>
     </div>
 
-    <!-- BURGER SHOWCASE -->
+<!-- BURGER SHOWCASE -->
     <div class="section-burger">
         <ul class="burger-showcase clearfix">
-            <!-- Include your burger images and descriptions here -->
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b1.webp" alt="Classic Burger">
+                </figure>
+            </li>
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b2.webp" alt="Original Burger">
+                </figure>
+            </li>
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b3.webp" alt="Beef Burger">
+                </figure>
+            </li>
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b4.webp" alt="Bacon Burger">
+                </figure>
+            </li>
+        </ul>
+        <ul class="burger-showcase clearfix">
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b5.webp" alt="Bacon Cheese Burger">
+                </figure>
+            </li>
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b6.webp" alt="Cheese Burger">
+                </figure>
+            </li>
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b7.webp" alt="Chili Burger">
+                </figure>
+            </li>
+            <li>
+                <figure class="burger-photo">
+                    <img src="assets/images/b8.webp" alt="Veggie Burger">
+                </figure>
+            </li>
         </ul>
     </div>
 
-    <!-- ABOUT US -->
-    <h2>About Us</h2>
-    <div class="container">
-        <p>Welcome to "Sassy Burgers," a hidden gem nestled in the heart of a bustling city. As you step inside, you're greeted by the mouthwatering aroma of sizzling patties and the friendly chatter of satisfied customers. With its retro diner decor and cozy booths, Sassy Burgers exudes a timeless charm that makes it a favorite among locals and tourists alike.</p>
-    </div>
+<!-- ABOUT US -->
+    <h2>about us</h2>
+        <div class="container">
+            <p>Welcome to "Sassy Burgers," a hidden gem nestled in the heart of a bustling city. As you step inside, you're greeted by the mouthwatering aroma of sizzling patties and the friendly chatter of satisfied customers. With its retro diner decor and cozy booths, Sassy Burgers exudes a timeless charm that makes it a favorite among locals and tourists alike.</p>
+        </div>
     <br>
 
-    <img src="assets/images/restaurant.webp" id="restaurant" alt="Four photos showing the inside of the restaurant">
-
-    <!-- CONTACT -->
+    <img src="/assets/images/restaurant-.webp" id="restaurant" alt="four photos showing the inside of the restaurant">
+    
+<!-- CONTACT -->
     <section class="container">
         <form id="contact_form" name="contact_form" method="post" action="https://formdump.codeinstitute.net">
             <fieldset>
                 <legend>
-                    <h2>Contact Us</h2>
+                    <h2>contact us</h2>
                 </legend>
                 <table>
                     <tr>
-                        <td><label for="name">Name</label></td>
+                        <td><label for="name">name</label></td>
                         <td><input type="text" name="name" id="name" placeholder="Your name, please" required></td>
                     </tr>
                     <tr>
-                        <td><label for="email">Email</label></td>
+                        <td><label for="email">email</label></td>
                         <td><input type="email" name="email" id="email" placeholder="Your email, please" required></td>
                     </tr>
                     <tr>
-                        <td><label for="message">Message</label></td>
+                        <td><label for="message"></label></td>
                         <td><textarea name="message" id="message" cols="45" rows="5" placeholder="Enter your message"></textarea></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>
-                            <input type="reset" name="reset" id="reset" value="Reset">
-                            <input type="submit" name="send" value="Submit">
+                        <td><input type="reset" name="reset" id="reset" value="reset">   <input type="submit" name="send" value="submit">
+                         
                         </td>
                     </tr>
                 </table>
             </fieldset>
         </form>
     </section>
-
-    <!-- CONTACT -->
+  
+<!-- CONTACT -->
     <footer>
         <p>Monday - Sunday 12:00 - 20:00</p>
         <p>10 Stanley Road, London WC51 3AJ</p>
-        <table class="center">
-            <tr>
-                <td><a href="http://www.facebook.com/" target="_blank" aria-label="Facebook opens in a new window">Facebook</a></td>
-                <td><a href="http://www.instagram.com/" target="_blank" aria-label="Instagram opens in a new window">Instagram</a></td>
-                <td><a href="http://www.twitter.com/" target="_blank" aria-label="Twitter opens in a new window">Twitter</a></td>
-            </tr>
+            <table class="center">
+                <tr>
+                    <td><a href="http://www.facebook.com/" target="_blank" aria-label="Facebook opens in a new window">Facebook</a></td>
+                    <td><a href="http://www.instagram.com/" target="_blank" aria-label="Instagram opens in a new window">Instagram</a></td>
+                    <td><a href="http://www.twitter.com/" target="_blank"  aria-label="Twitter opens in a new window">Twitter</a>
+                    </td>
+                </tr>
         </table>
     </footer>
 </body>
