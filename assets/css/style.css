@@ -292,10 +292,10 @@ a:hover, a:active {
     margin-right: auto;
 }
 
-/*-- menu.html --*/
+/*-- MENU.HTML --*/
 .center-img {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
