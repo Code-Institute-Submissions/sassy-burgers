@@ -36,6 +36,7 @@ header {
 
 .hero-text-box {
     text-align: center;
+    font-family: "fjalla one", sans-serif;
 }
 
 h1, h2, h3 {
@@ -152,7 +153,6 @@ a:hover, a:active {
 .menu-button, .menu-button::before, .menu-button::after {
     display: block;
     background-color: #ea7dd9;
-    position: absolute;
     height: 4px;
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
