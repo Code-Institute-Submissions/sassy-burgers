@@ -1,8 +1,7 @@
-/*------------------------------- FONT FAMILY----------------------------------------*/
+/*-- IMPORT FONTS ----------------------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ysabeau+SC:wght@100;200&display=swap');
 
-/*------------------------------- BASIC SETUP ----------------------------------------*/
-
+/*-- BASIC SETUP -----------------------------------------------------------------------------*/
 body {
     max-width: 1800px;
     margin-left: auto;
@@ -12,7 +11,6 @@ body {
     color: #fff;
     font-family: 'Ysabeau SC', sans-serif;
 }
-
 
 li {
     color: #fff;
@@ -27,7 +25,6 @@ hr {
     margin-bottom: 5%;
 }
 
-
 p {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 120%;
@@ -35,26 +32,7 @@ p {
     text-align: center;
 }
 
-
-.btn-app img {
-    height: 50px;
-    width: auto;
-    margin: 10px;
-}
-
-.btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
-
-.btn-app img {
-    height: 100%;
-    width: auto;
-    margin-right: 10px;
-}
-
-/*----------------------- HEADER ----------------------*/
-
+/*-- HEADER ----------------------------------------------------------------------------------*/
 header {
     background-size: cover;
     background-position: center;
@@ -68,13 +46,11 @@ header {
     font-family: "fjalla one";
 }
 
-
 h1 {
     font-size: 350%;
     text-transform: uppercase;
     font-family: fjalla one;
 }
-
 
 h2 {
     font-size: 300%;
@@ -90,10 +66,11 @@ h3 {
     text-align: center;
 }
 
-h4 {font-family:'fjalla one';
-    text-align:center;
-    font-size:1.4rem}
-
+h4 {
+    font-family: 'fjalla one';
+    text-align: center;
+    font-size: 1.4rem
+}
 
 /*------------------------------------- LINKS -----------------------------------------*/
 a:link,
@@ -109,9 +86,7 @@ a:active {
     border-bottom: 1px solid transparent;
 }
 
-
 /*------------------------------------- BUTTONS --------------------------------------*/
-
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -152,7 +127,24 @@ a:active {
     color: #fff;
 }
 
-/*------------------------------------- NAV -------------------------------------------*/
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+}
+
+/*-- NAV -------------------------------------------------------------------------------------*/
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -231,7 +223,6 @@ a:active {
     display: flex
 }
 
-
 .menu {
     position: absolute;
     top: 0;
@@ -258,7 +249,6 @@ a:active {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-
 .menu > li {
     display: flex;
     justify-content: center;
@@ -273,8 +263,7 @@ a:active {
     border-bottom: 1px solid #ea7dd9;
 }
 
-/*------------------------------------- SECTION BURGERS ----------------------------------------*/
-
+/*-- BURGER SHOWCASE -------------------------------------------------------------------------*/
 .section-burger {
     margin-top: 10%;
 }
@@ -305,7 +294,6 @@ a:active {
     transform: scale(1.03);
 }
 
-
 .clearfix {
     zoom: 1%;
     overflow: auto;
@@ -319,35 +307,23 @@ a:active {
     visibility: hidden;
 }
 
-/*------------------------------ BURGER MENU -----------------------------*/
-
+/*-- MENU.HTML -------------------------------------------------------------------------------*/
 .burger_menu {
     text-align: center;
-
 }
 
-
-
-/*-------------------------------COLUMNS-------------------------------------*/
-
-
-
-
+/*-- COLUMNS ---------------------------------------------------------------------------------*/
 .column {
     float: left;
-
 }
 
-
-/*--------------------------------------- ABOUT US-------------------------------------------*/
+/*-- CONTAINER -------------------------------------------------------------------------------*/
 .container {
     max-width: 808px;
     margin-left: auto;
     margin-right: auto;
     text-align: cente;
 }
-
-
 
 /*----------------------------------- SECTION ----------------------------------------*/
 .section {
@@ -370,16 +346,15 @@ a:active {
 .row:after {
     clear: both;
 }
-/*----------------------------------- FOOTER-------------------------------------*/
 
+/*----------------------------------- FOOTER-------------------------------------*/
 .center {
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    text-align:center;
+    text-align: center;
 }
 
 /*----------------------------------- FONTS-------------------------------------*/
-
 .ysabeu {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 120%;
