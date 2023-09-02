@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en_us'>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible" content="ie=edge'>
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+    <title>Contact Us</title>
+</head>
+
+<header>
+</header>   
+ 
+<body> 
+
+<form id="contact_form" name="contact_form" method="post" action="postemail.php">
+    <fieldset>
+        <legend><h2>Contact Us</h2></legend>
+    <table>
+        <tr>
+            <td><label for="Name">Name</label></td>
+            <td><input type="text" name="name" id="Name" placeholder="Your name, please"> required</td>
+        </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" name="email" id="email" placeholder="Your email, please"> required</td>
+        </tr>
+          <tr>
+            <td><label for="message"></label></td>
+              <td><textarea name="Message" id="Message" cols="45" rows="5" placeholder="Enter your message"></textarea></td>
+           </tr> 
+        <tr>
+            <td></td>
+            <td><input type="reset" name="reset" id="reset" value="reset">
+                <input type="submit" name="send" value="submit"></td>
+        </tr>
+        </table>
+    </fieldset>
+    
+    </form>
