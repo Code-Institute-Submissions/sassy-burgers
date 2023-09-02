@@ -11,6 +11,13 @@ body {
     font-family: 'Ysabeau SC', sans-serif;
 }
 
+
+li, ul {
+    color: #fff;
+    list-style-type: none;
+}
+
+
 li {
     color: #fff;
 }
