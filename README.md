@@ -8,9 +8,7 @@ This project is directed towards Sassy Burgers customers. It's a place where bur
 
 ## Screenshots
 
-![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/3f6263ae-8bd9-450f-af30-31f52efa1433)
-
-![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/74ca9beb-cc64-4344-836e-61546bc0f429)
+![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/79afcc41-479e-451c-aaa3-c2820d19714d)
 
 
 
