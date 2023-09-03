@@ -40,7 +40,7 @@ This project is directed towards Sassy Burgers customers. It's a place where bur
 
 We've thoroughly tested our website to ensure it functions as expected:
 
-- **Form Validation:** We've validated user input on the contact form to ensure accurate submissions.
+- **Form Validation:** I´ve validated user input on the contact form to ensure accurate submissions.
 - **Bug Fixes:** During development and testing, we identified and fixed various bugs to enhance user experience.
 - **W3C Validation:** Our HTML and CSS have been validated using the W3C validators and passed without errors.
 
