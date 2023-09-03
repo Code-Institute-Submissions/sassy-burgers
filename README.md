@@ -30,7 +30,7 @@ This project is directed towards Sassy Burgers customers. It's a place where bur
 - 
 ### 2. Contact Us
 
-![Contact Us](![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/eb9633d1-83ba-4647-8767-48df5b416924)
+![Contact Us](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/eb9633d1-83ba-4647-8767-48df5b416924)
 
 - Reach out to us with any inquiries or feedback.
 - Use the contact form to send us a message.
