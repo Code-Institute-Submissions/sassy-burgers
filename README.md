@@ -1,6 +1,6 @@
 # Sassy Burgers (Restaurant) Website
 
-![Sassy Burgers Website](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/60add24a-4783-4c03-9c94-9941ca27edfe)
+![Sassy Burgers Website](![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/05f2f555-61f6-4bdf-844d-22cba0869306)
 
 
 ## Introduction
@@ -22,7 +22,7 @@ This project is directed towards Sassy Burgers customers. It's a place where bur
 
 ### 1. Burger Menu
 
-![Burger Menu](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/5cabbaab-2b0a-4d93-a832-34f717e5075c)
+![Burger Menu](![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/cdef5434-04d2-4180-bdef-068f829f78ab)
 
 - Browse a selection of mouthwatering burgers.
 - Each burger is presented with a name, image, price, and description.
@@ -30,7 +30,7 @@ This project is directed towards Sassy Burgers customers. It's a place where bur
 - 
 ### 2. Contact Us
 
-![Contact Us](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/582b35ab-c55c-4515-ad69-ba2c7f204f8f)
+![Contact Us](![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/eb9633d1-83ba-4647-8767-48df5b416924)
 
 - Reach out to us with any inquiries or feedback.
 - Use the contact form to send us a message.
