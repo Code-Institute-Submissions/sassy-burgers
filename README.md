@@ -2,11 +2,10 @@
 
 ![Sassy Burgers Website](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/60add24a-4783-4c03-9c94-9941ca27edfe)
 
-)
 
 ## Introduction
 
-This project is directed to Sassy Burgers customers. It's a place where burger lovers can explore a variety of delicious burger options. The website is designed to provide information about the restaurant, showcase the menu, and allow customers to get in touch.
+This project is directed towards Sassy Burgers customers. It's a place where burger lovers can explore a variety of delicious burger options. The website is designed to provide information about the restaurant, showcase the menu, and allow customers to get in touch.
 
 ## Screenshots
 
@@ -23,15 +22,15 @@ This project is directed to Sassy Burgers customers. It's a place where burger l
 
 ### 1. Burger Menu
 
-![Burger Menu](pic)
+![Burger Menu](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/5cabbaab-2b0a-4d93-a832-34f717e5075c)
 
 - Browse a selection of mouthwatering burgers.
 - Each burger is presented with a name, image, price, and description.
 - Which one will be your favourite?!
-
+- 
 ### 2. Contact Us
 
-![Contact Us](pic)
+![Contact Us](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/582b35ab-c55c-4515-ad69-ba2c7f204f8f)
 
 - Reach out to us with any inquiries or feedback.
 - Use the contact form to send us a message.
@@ -62,11 +61,10 @@ Our website is deployed and accessible to the public. Here are the steps we took
 1. Hosted on a web server.
 2. Domain name registered and configured.
 3. Continuous updates to keep our content fresh and engaging.
+4. Checked "index.html" and "menu.html" incl. "style.css" on "Chrome", "Firefox" and lastly "Microsoft Edge" with no errors.
 
 ## Credits
 
-We'd like to credit the following sources for their contributions:
-
-
+I'd like to credit the following sources for their contributions:
 
 Enjoy exploring our burger offerings, and don't hesitate to reach out if you have any questions or feedback!
