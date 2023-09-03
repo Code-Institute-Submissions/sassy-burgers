@@ -1,6 +1,7 @@
 # Sassy Burgers (Restaurant) Website
 
-![Sassy Burgers Website](![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/f99cd58d-8a91-4733-bcb5-ffd2e23eaaa7)
+![Sassy Burgers Website](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/60add24a-4783-4c03-9c94-9941ca27edfe)
+
 )
 
 ## Introduction
