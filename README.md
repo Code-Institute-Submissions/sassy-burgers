@@ -66,5 +66,8 @@ Our website is deployed and accessible to the public. Here are the steps we took
 ## Credits
 
 I'd like to credit the following sources for their contributions:
+My mentor Brian Macharia for his great advices!
+Code Instutes staff!
+and lastly Google.
 
 Enjoy exploring our burger offerings, and don't hesitate to reach out if you have any questions or feedback!
