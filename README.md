@@ -8,12 +8,16 @@ This project is directed towards Sassy Burgers customers. It's a place where bur
 
 ## Screenshots
 
+![image](https://github.com/GlennJohansson85/sassy-burgers/assets/139962883/3f6263ae-8bd9-450f-af30-31f52efa1433)
+
+ Couldnt find any information about the following:
+ - How to deploy my website. Is it already deployed? 
+ - Due to my website is not deployed (Im guessing) I coulnt provide a URL to "Imaresponsive" to get screenshots in desktop, tablet and mobile view.
+ - I searched through Code Institutes mtrl, Githubs homepage, asked slack and tutors but no answer.  
+
+
 - Desktop View pic
-  
-
 - Tablet View pic
- 
-
 - Mobile View
 
 
